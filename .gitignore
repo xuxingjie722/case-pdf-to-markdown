@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Output directories (converted markdown)
+*md/
+
+# State files (local conversion cache)
+.convert_state.json
+
+# PDF files (case materials should never be committed)
+*.pdf
